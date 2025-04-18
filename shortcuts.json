@@ -1,0 +1,33 @@
+const shortcuts = [
+    {
+        "label": "Reddit",
+        "url": "https://www.reddit.com/"
+    }, {
+        "label": "YouTube",
+        "url": "https://www.youtube.com/"
+    }, {
+        "label": "VK",
+        "url": "https://vk.com/im"
+    }, {
+        "label": "Mail.ru",
+        "url": "https://e.mail.ru/inbox"
+    }, {
+        "label": "GitHub",
+        "url": "https://github.com/Evilur"
+    }, {
+        "label": "Cloudflare",
+        "url": "https://dash.cloudflare.com/"
+    }, {
+        "label": "MangaLib",
+        "url": "https://mangalib.me/ru/user/7695682"
+    }, {
+        "label": "Переводчик",
+        "url": "https://translate.yandex.ru/translator/Английский-Русский/"
+    }, {
+        "label": "Anilibria",
+        "url": "https://anilibria.top/me/favorites"
+    }, {
+        "label": "Steam",
+        "url": "https://steamcommunity.com/id/Evilur"
+    }
+];

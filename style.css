@@ -1,29 +1,8 @@
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Roboto'), url('fonts/roboto-regular.woff2');
-}
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    src: local('Roboto'), url('fonts/roboto-medium.woff2');
-}
-
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Roboto'), url('fonts/roboto-bold.woff2');
-}
-
 * {
     background-color: transparent;
     border: none;
     color: #000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'JetBrains Mono NL', sans-serif;
     font-feature-settings: normal;
     font-kerning: auto;
     font-optical-sizing: auto;
@@ -49,7 +28,7 @@
 }
 
 body {
-    background: #1C1B22;
+    background-color: #181926;
     display: inline-flex;
     height: 100%;
     justify-content: center;
@@ -84,7 +63,7 @@ body {
 }
 
 #search-container > input {
-    background-image: url('icons/search.svg');
+    background-image: url('icons/interface/search.svg');
     background-position: 18px;
     background-repeat: no-repeat;
     background-size: 20px 20px;
@@ -116,12 +95,12 @@ body {
 }
 
 #search-container > .right > #voice-search {
-    background-image: url('icons/mic.svg');
+    background-image: url('icons/interface/mic.svg');
     margin-right: 6px;
 }
 
 #search-container > .right > #image-search {
-    background-image: url('icons/camera.svg');
+    background-image: url('icons/interface/camera.svg');
 }
 
 #shortcut-container {
@@ -144,20 +123,20 @@ body {
 }
 
 #shortcut-container >.shortcut:hover {
-    background-color: #333239;
+    background-color: #363a4f;
     cursor: pointer;
 }
 
 #shortcut-container > .shortcut > .icon-container {
     --img-container-size: 48px;
     align-items: center;
-    background-color: #222029;
+    background-color: #1e2030;
     border-radius: 100%;
     display: inline-flex;
     height: var(--img-container-size);
     justify-content: center;
     width: var(--img-container-size);
-} 
+}
 
 #shortcut-container > .shortcut > .icon-container img {
     height: calc((var(--img-container-size) / 2));
@@ -165,7 +144,7 @@ body {
 }
 
 #shortcut-container > .shortcut > .label {
-    color: #fff;
+    color: #f2f4fd;
     font-size: 13px;
     margin-top: 16px;
 }

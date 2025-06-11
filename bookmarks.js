@@ -1,11 +1,11 @@
-/** Append the shortcut HTML object to the DOM 
+/** Append the shortcut HTML object to the DOM
  * shortcut: shortcut object (fields: label, url)
 */
 function dom_append_shortcut(shortcut) {
     container.innerHTML += `
     <a class='shortcut' href='${shortcut.url}'>
         <div class='icon-container'>
-            <img src='icons/shortcuts/${get_domain(shortcut.url)}'//>
+            <img src='icons/bookmarks/${get_domain(shortcut.url)}.svg'//>
         </div>
         <span class='label'>${shortcut.label}</span>
     </a>
